@@ -1,0 +1,94 @@
+body {
+  color: white;
+  background-color: black;
+}
+.indenttext{
+    text-indent: 20px;
+}
+.planettitle{
+    font-size: 30px;
+}
+.epigraf{
+    margin-left: 50px;
+}
+.quote {
+    font-style: italic;
+}
+.boldtext{
+    font-weight: bold;
+} 
+.underline {
+    text-decoration: underline white;
+}  
+.title{
+	text-align: center;
+}
+.subtitle{
+	font-size: 4bx;
+}
+.sizeoftext{
+    font-size: 120%;
+}
+.beigetext{
+    color:lightcoral;
+}
+.lightorange{
+    color:coral;
+}
+.yellowtext{
+	color: yellow;
+}
+.orangetext{
+    color: orange;
+}
+.redtext{
+	color: red;
+}
+.greentext{
+	color: green;
+}
+.highlightergreen{
+    color:rgb(55, 252, 55)
+}
+.bluetext{
+	color:blue;
+}
+.aquatext{
+    color:aqua;
+}
+.lightbluetext{
+    color:dodgerblue;
+}
+.greytext{
+    color: grey;
+}
+.lightgreytext{
+    color:rgb(175, 174, 174)
+}
+.justifytext{
+    text-align: justify;
+}
+.righttext{
+    text-align: right;
+}
+
+.flexconteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    display: none;
+
+}
